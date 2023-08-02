@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     binding.crashFromJava.setOnClickListener(
         view -> {
+          MyApplication.options.setEnvironment("custom");
           throw new RuntimeException("Uncaught Exception from Java.");
         });
 
