@@ -8,6 +8,12 @@
 - Send `http.request.method` in span data ([#2896](https://github.com/getsentry/sentry-java/pull/2896))
 - Add `enablePrettySerializationOutput` option for opting out of pretty print ([#2871](https://github.com/getsentry/sentry-java/pull/2871))
 
+### Dependencies
+
+- Bump Gradle from v8.2.1 to v8.3.0 ([#2900](https://github.com/getsentry/sentry-java/pull/2900))
+  - [changelog](https://github.com/gradle/gradle/blob/master/CHANGELOG.md#v830)
+  - [diff](https://github.com/gradle/gradle/compare/v8.2.1...v8.3.0)
+
 ## 6.28.0
 
 ### Features
